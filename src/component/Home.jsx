@@ -1,6 +1,6 @@
 const Home = () => {
   return (
-    <div className=" w-full h-screen bg-[#0a192f]">
+    <div name="home" className=" w-full h-screen bg-[#0a192f]">
       {/* info*/}
       <div className=" max-w-[1000px] flex flex-col justify-center px-8  h-[60%] mx-[200px]">
         <p className=" text-green-400">Hi,my name is</p>
