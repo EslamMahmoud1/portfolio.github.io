@@ -1,7 +1,7 @@
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { BiLogoGmail } from "react-icons/bi";
 import { Link } from "react-scroll";
-import cv from "../assets/cv.pdf";
+import cv from "../assets/Eslam_Mahmoud_CV.pdf";
 const Navbar = () => {
   return (
     <div>
@@ -53,7 +53,7 @@ const Navbar = () => {
           <li className=" w-[160px] h-[60px]  ml-[-95px] hover:ml-[-15px] duration-300">
             <a
               className="flex justify-between items-center w-full h-full px-4 bg-emerald-500 text-white rounded-full"
-              href="eslammahmoud3454@gmail.com"
+              href="mailto:eslam.mahmoud.hanafy@gmail.com"
             >
               Gmail <BiLogoGmail size={30} />
             </a>
